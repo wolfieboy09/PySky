@@ -1,10 +1,29 @@
-import requests
-import json
+from color import color as c, style as s
+from userCheck import checkUser
+from readchar import readchar
+from getData import getPurse, getBank
+import os
 
-username = 'Wolfieboy09' #placeholder
-profile = 'strawberry'   #placeholer and my main profiler
+def clear():
+  os.system("clear")
 
-url = f"https://sky.shiiyu.moe/api/v2/coins/{username}/{profile}"
 
-r = requests.get(url)
-print(r.json)
+def enterUserAndProfile():
+  print(f"Welcome to {c.green}PySky{c.clear}! Hypixel skyblock, but with python!")
+  print(f"PySky {s.bold}cannot{s.clear} see profiles, so you have to input the profile name.{s.clear}")
+  print("Please enter a username of a player\n")
+  username = input("Username: ")
+  profile = input("Profile name: ")
+  print("[+] Checking username and profile name... Please wait")
+  checkUser(username, profile)
+  
+def menuSelect():
+  clear()
+  print("1- Tailsmen(s)")
+  print("2- Purse & Bank")
+
+   
+
+
+enterUserAndProfile()
+menuSelect()
