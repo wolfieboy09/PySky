@@ -1,8 +1,11 @@
 # IMPORTANT
 PySky is NOT fully completed!
+
 # Welcome to PySky!
 Pysky is a Hypixel Skyblock (HS) player status viewer.\
 PySky is a project that started with Wolfie (@Wolfieboy09)
+This is the largest project Ive done so far
+
 # How did PySky get its name?
 > PySky are two words together. "Python," and "Skyblock."\
 > I know that PySky is another thing for weather API and what not
