@@ -1,7 +1,3 @@
-# some stuff
-
-#its a start
-# https://ozzmaker.com/add-colour-to-text-in-python/
 # "\033[0m" is in ALL classses so you can clear no matter what
 
 #Text color
@@ -35,21 +31,3 @@ class highlight():
   purple = '\033[45m'
   cyan = '\033[46m'
   white = '\033[47m'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
